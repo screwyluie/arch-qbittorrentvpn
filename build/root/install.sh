@@ -28,7 +28,7 @@ fi
 source upd.sh
 
 # define pacman packages
-pacman_packages="qbittorrent-nox python geoip"
+pacman_packages="qbittorrent-nox-git python geoip"
 
 # install compiled packages using pacman
 if [[ ! -z "${pacman_packages}" ]]; then
